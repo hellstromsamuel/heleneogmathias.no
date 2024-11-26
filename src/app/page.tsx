@@ -14,7 +14,7 @@ export default function Home() {
 
       <div className="relative grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen font-[family-name:var(--font-geist-sans)]">
         <main className="flex flex-col row-start-2 items-center text-center">
-          <h1 className="text-[3em] md:text-[5em] font-great-vibes mb-16">
+          <h1 className="text-[3em] md:text-[5em] font-great-vibes mt-48 mb-16">
             Helene og Mathias
           </h1>
 
