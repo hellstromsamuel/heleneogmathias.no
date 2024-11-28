@@ -5,7 +5,7 @@ export default function Home() {
       <div
         className="absolute inset-0 bg-cover bg-fixed bg-center bg-no-repeat"
         style={{
-          backgroundImage: "url('/forside.png')",
+          backgroundImage: "url('/forside.webp')",
         }}
       />
 
