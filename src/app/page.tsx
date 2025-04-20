@@ -66,7 +66,7 @@ export default function Home() {
             <PageSectionColumn>
               <p>Velkommen til åpen vielse i Asak kirke</p>
               <p>
-                <b>Sted:</b> kart?
+                <b>Sted:</b> Asak kirke, Torpedalsveien, 1764 Halden
               </p>
               <p>
                 <b>Tid:</b> 14:00
