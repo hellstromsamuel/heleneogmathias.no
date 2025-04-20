@@ -2,6 +2,7 @@
 
 import {
   Carousel,
+  CarouselApi,
   CarouselContent,
   CarouselItem,
   CarouselNext,
@@ -20,7 +21,7 @@ interface ImageCarouselProps {
 }
 
 function ImageCarousel({ images, autoPlay }: ImageCarouselProps) {
-  const [api, setApi] = useState<any>();
+  const [api, setApi] = useState<CarouselApi>();
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
