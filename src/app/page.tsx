@@ -17,19 +17,19 @@ export default function Home() {
         <ImageCarousel
           images={[
             {
-              src: "Bilder av oss 2.webp",
+              src: "bilder-av-oss-2.webp",
               tailwindClass: "object-[0_40%]",
             },
             {
-              src: "Bilder av oss 3.webp",
+              src: "bilder-av-oss-3.webp",
               tailwindClass: "object-[0_20%]",
             },
             {
-              src: "Bilder av oss 4.webp",
+              src: "bilder-av-oss-4.webp",
               tailwindClass: "object-center",
             },
             {
-              src: "Bilder av oss 5.webp",
+              src: "bilder-av-oss-5.webp",
               tailwindClass: "object-[0_60%]",
             },
           ]}
@@ -138,7 +138,7 @@ export default function Home() {
               images={[
                 { src: "toastmastere/Mika.webp" },
                 {
-                  src: "toastmastere/Jon Ole.webp",
+                  src: "toastmastere/jon-ole.webp",
                   tailwindClass: "object-[0_80%]",
                 },
               ]}
@@ -168,13 +168,13 @@ export default function Home() {
             <ImageCarousel
               images={[
                 {
-                  src: "steder/Thon Hotel Halden.webp",
+                  src: "steder/thon-hotel-halden.webp",
                 },
                 {
-                  src: "steder/Bryggen i Halden.webp",
+                  src: "steder/bryggen-i-halden.webp",
                 },
                 {
-                  src: "steder/Fredriksten festning.webp",
+                  src: "steder/fredriksten-festning.webp",
                 },
               ]}
               autoPlay={true}
@@ -210,13 +210,13 @@ export default function Home() {
             <ImageCarousel
               images={[
                 {
-                  src: "onskeliste/onskeliste 1.webp",
+                  src: "onskeliste/onskeliste-1.webp",
                 },
                 {
-                  src: "onskeliste/onskeliste 2.webp",
+                  src: "onskeliste/onskeliste-2.webp",
                 },
                 {
-                  src: "onskeliste/onskeliste 3.webp",
+                  src: "onskeliste/onskeliste-3.webp",
                 },
               ]}
               autoPlay={true}
