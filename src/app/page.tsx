@@ -13,7 +13,7 @@ export default function Home() {
         </h1>
       </header>
 
-      <main className="flex flex-col items-center space-y-8 px-2 mx-auto max-w-5xl text-xl">
+      <main className="flex flex-col items-center space-y-8 px-2 pb-8 mx-auto max-w-5xl text-xl">
         <ImageCarousel
           images={[
             {
@@ -137,7 +137,10 @@ export default function Home() {
             <ImageCarousel
               images={[
                 { src: "toastmastere/Mika.webp" },
-                { src: "toastmastere/Jon Ole.webp" },
+                {
+                  src: "toastmastere/Jon Ole.webp",
+                  tailwindClass: "object-[0_80%]",
+                },
               ]}
               autoPlay={true}
             />
