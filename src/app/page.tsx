@@ -3,6 +3,7 @@ import PageSection from "./components/ui/PageSection/page-section";
 import PageSectionColumn from "./components/ui/PageSection/page-section-column";
 import ICalLink from "./components/ICalLink";
 import ImageCarousel from "./components/ImageCarousel";
+import MapsIframe from "@/components/MapsIframe";
 
 export default function Home() {
   return (
@@ -73,13 +74,7 @@ export default function Home() {
               </p>
             </PageSectionColumn>
             <PageSectionColumn>
-              <iframe
-                width="100%"
-                height="300"
-                style={{ border: "0", borderRadius: "10px" }}
-                loading="lazy"
-                src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ1c1GE1xtREYR_3aj6gCK3KM&key=AIzaSyCZaGYKA3JoawRTYXnPQRonwP5UD7FBj58"
-              />
+              <MapsIframe srcQuery="place_id:ChIJ1c1GE1xtREYR_3aj6gCK3KM" />
             </PageSectionColumn>
           </PageSection>
 
@@ -96,13 +91,7 @@ export default function Home() {
               </p>
             </PageSectionColumn>
             <PageSectionColumn>
-              <iframe
-                width="100%"
-                height="300"
-                style={{ border: "0", borderRadius: "10px" }}
-                loading="lazy"
-                src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJZXamlbcSREYRra2TD0jbfpA&key=AIzaSyCZaGYKA3JoawRTYXnPQRonwP5UD7FBj58"
-              />
+              <MapsIframe srcQuery="place_id:ChIJZXamlbcSREYRra2TD0jbfpA" />
             </PageSectionColumn>
           </PageSection>
 
@@ -194,6 +183,15 @@ export default function Home() {
                   </Link>
                 </p>
 
+                <p>
+                  Kitchen ønskeliste:{" "}
+                  <Link
+                    className="underline text-blue-600"
+                    href="https://www.kitchn.no/bryllup/vis-liste/213116"
+                  >
+                    https://www.kitchn.no/bryllup/vis-liste/213116
+                  </Link>
+                </p>
                 <p>Eventuelt spør etter vår liste i en Kitchen-butikk</p>
               </PageSectionColumn>
               <PageSectionColumn>
